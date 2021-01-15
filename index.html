@@ -1,9 +1,100 @@
-<html>
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design System</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Lora&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="reset.css" rel="stylesheet" type="text/css">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
 <body>
-  <h1>Samantha Domingue</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+    <header>
+        <h1>My Website Style Guide</h1>
+    </header>
+
+    <main>
+        <section class="colors">
+            <h2>Colors</h2>
+            <div class="color-container">
+                <div class="pink color-panel">
+                    <p class="color-label">Pink</p>
+                    <p class="color-hex">#EB6CAE</p>
+                </div>
+                <div class="pale-yellow color-panel">
+                    <p class="color-label">Pale Yellow</p>
+                    <p class="color-hex">#EBDD78</p>
+                </div>
+                <div class="purple color-panel">
+                    <p class="color-label">Purple</p>
+                    <p class="color-hex">#C460EA</p>
+                </div>
+                <div class="green color-panel">
+                    <p class="color-label">Green</p>
+                    <p class="color-hex">#4BEB49</p>
+                </div>
+                <div class="blue color-panel">
+                    <p class="color-label">Blue</p>
+                    <p class="color-hex">#6E54EB</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="fonts">
+            <h2>Fonts</h2>
+            <div class="font-container">
+                <div class="font-panel handlee-font">
+                    <h5>Handlee</h5>
+                    <p class="regular">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+                </div>
+                <div class="font-panel lora-font">
+                    <h5>Lora</h5>
+                    <p class="regular">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+                </div>
+                <div class="font-panel open-sans-font">
+                    <h5>Open Sans</h5>
+                    <p class="regular">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+                    <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="text-styles"> 
+            <h2>Text Styles</h2>
+            <div class="style-container">
+                <div class="style-panel">
+                    <h1 class="bold handlee-font">h1: Main Page Header</h1>
+                    <ul>
+                        <li>font-weight: 600;</li>
+                        <li>font-size: 46px;</li>
+                        <li>font-family: Handlee, cursive;</li>
+                    </ul>
+                </div>
+                <div class="style-panel">
+                    <h2 class="bold lora-font">h2: Subheader</h2>
+                    <ul>
+                        <li>font-weight: 600;</li>
+                        <li>font-size: 36px;</li>
+                        <li>font-family: Lora, serif;</li>
+                    </ul>
+                </div>
+                <div class="style-panel">
+                    <p class="open-sans-font">p: Paragraph Text</p>
+                    <ul>
+                        <li>font-weight: 400;</li>
+                        <li>font-size: 16px;</li>
+                        <li>font-family: 'Open Sans', sans-serif;</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
- 
 </html>
